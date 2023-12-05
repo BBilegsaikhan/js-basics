@@ -70,10 +70,26 @@ let products = [
     price: 150000,
   },
 ];
-function get() {
-  for (let i = 0; i < products.length; i++) {
-    if (products[i].category == "Electron product")
-      console.log(products[i].name, ":", products[i].category);
+//for (let i = 0; i < 10; i = i + 1) {
+//if (products[i].category == "electron") {
+// console.log(products[i]);
+//}
+//}
+//function findByCategory(cate) {
+//for (let i = 0; i < 10; i = i + 1) {
+//if (products[i].category == cate) {
+//   console.log(products[i]);
+//}
+//}
+//}
+//findByCategory("Furniture");
+function expensive() {
+  let mostExpensive = products[0].price;
+  for (let i = 0; i < products.length; i = i + 1) {
+    if (mostExpensive < products[i].price) {
+      mostExpensive = products[i].price;
+    }
   }
+  console.log(mostExpensive);
 }
-get();
+expensive();
