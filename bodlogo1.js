@@ -5,6 +5,7 @@ let products = [
     category: "MobilePhone",
     brand: "Apple",
     price: 4000000,
+    stock : 1000
   },
   {
     name: "VacuumCleaner",
@@ -12,6 +13,7 @@ let products = [
     category: "Cleaner",
     brand: "Vacuum",
     price: 1000000,
+    stock : 10000
   },
   {
     name: "Dellcomputer",
@@ -19,6 +21,7 @@ let products = [
     category: "electron",
     brand: "Dell",
     price: 5000000,
+    stock : 1500
   },
   {
     name: "SamsungFridge",
@@ -26,6 +29,7 @@ let products = [
     category: "electron",
     brand: "Samsung",
     price: 5500000,
+    stock : 500
   },
   {
     name: "Water boiler",
@@ -33,6 +37,7 @@ let products = [
     category: "electron",
     brand: "Boiler",
     price: 100000,
+    stock : 2000
   },
   {
     name: "Sony TV",
@@ -40,6 +45,7 @@ let products = [
     category: "electron",
     brand: "Sonycompany",
     price: 6000000,
+    stock : 50
   },
   {
     name: "Playstation 5",
@@ -47,6 +53,7 @@ let products = [
     category: "electron",
     brand: "Sony",
     price: 3000000,
+    stock : 300
   },
   {
     name: "Blackberry Phone",
@@ -54,6 +61,7 @@ let products = [
     category: "electron",
     brand: "Blackberry",
     price: 1000000,
+    stock : 1500
   },
   {
     name: "Round Table",
@@ -61,6 +69,7 @@ let products = [
     category: "Furniture",
     brand: "IKEA",
     price: 500000,
+    stock : 10
   },
   {
     name: "Iron",
@@ -68,6 +77,7 @@ let products = [
     category: "electron",
     brand: "Samsung",
     price: 150000,
+    stock : 30000
   },
 ];
 //for (let i = 0; i < 10; i = i + 1) {
@@ -93,3 +103,4 @@ function expensive() {
   console.log(mostExpensive);
 }
 expensive();
+

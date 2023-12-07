@@ -28,4 +28,3 @@ console.log(num3 + num4);
 // reference error -> addressiin aldaa
 // = -> right hand operator
 // +-* -> left hand operator
-

@@ -17,10 +17,10 @@
 // 3^3=27
 // 3^4=81
 // 3^5=243
-function findNum(x, n) {
+function findNum(x) {
   let product = 1;
   for (i = 1; i < 6; i++) {
-    product = product * x;
+    product = product - x;
     console.log(product);
   }
 }
