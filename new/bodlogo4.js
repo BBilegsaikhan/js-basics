@@ -172,10 +172,4 @@ const employees = [
 // );
 
 // console.log(highPaidEmployees(employees, "Finance", 90000));
-function highpaidEmployees() {
-  let paidEmployee = employees.map((a) => {
-    return a.salary || a.name;
-  });
-  console.log(paidEmployee);
-}
-highpaidEmployees();
+function highPaidEmployees() {}
