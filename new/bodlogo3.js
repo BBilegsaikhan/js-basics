@@ -70,10 +70,9 @@ let products = [
     brand: "JBL",
   },
 ];
-function findPrice() {
+{
   let clickPrice = products.map((a) => {
     return a.price;
   });
   console.log(clickPrice);
 }
-findPrice();
